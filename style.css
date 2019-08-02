@@ -1,0 +1,36 @@
+body{
+    padding: 0;
+    Margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    background-color: rgba(194, 192, 192, 0.363)
+}
+
+/* clockwise notation */
+.card{
+    display: flex;
+    padding: 20px 0 20px 0;
+    justify-content: center;
+}
+
+
+
+
+.card:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+
+
+.card ul {
+    list-style: none;
+}
+
+
+
+
+.head{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+}
