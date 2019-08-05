@@ -32,6 +32,8 @@ const createCard = (obj,indx) =>{
 }
 
 
+
+
 const loopCreate=arr=>{
     for(let i = 0; i<arr.length; i++){
     createCard(arr[i],i);
