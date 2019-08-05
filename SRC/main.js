@@ -22,7 +22,7 @@ const createCard = (obj,indx) =>{
     name.innerHTML= `Name: ${title(list[indx].name.first)}  ${title(list[indx].name.last)}`
     email.innerHTML = `Email: ${list[indx].email}`
     age.innerHTML= `Age: ${list[indx].dob.age}`
-
+    
     lst.appendChild(name)
     lst.appendChild(age)
     lst.appendChild(email)
